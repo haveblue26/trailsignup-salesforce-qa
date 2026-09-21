@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "trailsignup-salesforce": {
+      "type": "http",
+      "url": "https://sdo-ajayksh-mcp-relay.onrender.com/mcp",
+      "headers": {
+        "Authorization": "Bearer be71919b1e65eea2f62fa4db3d6d6bb2"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "trailsignup-salesforce-qa-marketplace",
+  "owner": {
+    "name": "Ajay Kushwaha"
+  },
+  "plugins": [
+    {
+      "name": "trailsignup-salesforce-qa",
+      "source": "./",
+      "description": "Ask questions about the trailsignup demo Salesforce org (Accounts, Opportunities, Cases) with zero setup — read-only, via a shared hosted relay. No Salesforce login required."
+    }
+  ]
+}

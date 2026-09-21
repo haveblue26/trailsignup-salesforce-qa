@@ -1,0 +1,15 @@
+{
+  "name": "trailsignup-salesforce-qa",
+  "version": "1.0.0",
+  "description": "Ask questions about the trailsignup demo Salesforce org (Accounts, Opportunities, Cases) with zero setup — read-only, via a shared hosted relay. No Salesforce login required.",
+  "author": {
+    "name": "Ajay Kushwaha"
+  },
+  "license": "MIT",
+  "keywords": [
+    "salesforce",
+    "read-only",
+    "demo-org",
+    "crm"
+  ]
+}
