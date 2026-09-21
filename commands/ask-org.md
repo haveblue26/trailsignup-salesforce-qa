@@ -3,7 +3,7 @@ description: Ask a read-only question about the shared trailsignup demo Salesfor
 argument-hint: [question]
 ---
 
-Answer the user's question about the trailsignup demo org using the `trailsignup-salesforce` MCP server's `dispatch_readonly` tool. It takes `{ url, queryParams }` and issues a GET against the org's REST/GraphQL API — GET only, so there is no way to write data through it.
+Answer the user's question about the trailsignup demo org using the `salesforce-headless360-mcp-xdo` MCP server's `dispatch_readonly` tool. It takes `{ url, queryParams }` and issues a GET against the org's REST/GraphQL API — GET only, so there is no way to write data through it.
 
 Question: `$ARGUMENTS`
 

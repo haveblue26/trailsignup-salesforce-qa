@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "trailsignup-salesforce": {
+    "salesforce-headless360-mcp-xdo": {
       "type": "http",
       "url": "https://sdo-ajayksh-mcp-relay.onrender.com/mcp",
       "headers": {

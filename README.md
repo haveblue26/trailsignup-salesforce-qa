@@ -13,3 +13,5 @@ Lets anyone who installs this plugin ask Claude read-only questions about the `t
 ## For installers
 
 Install the plugin, then either ask Claude naturally ("what accounts are in the trailsignup org?") or use `/trailsignup-salesforce-qa:ask-org <question>`. No setup, no login, nothing to configure.
+
+**Naming collision warning:** the bundled MCP server is deliberately named `salesforce-headless360-mcp-xdo` — the same name `/salesforce-for-sales` skills look for — so those skills can use it without modification. If you already have your own connector of that same name pointed at a different org, this plugin's server will collide with it. Don't install this plugin if you rely on your own `salesforce-headless360-mcp-xdo` connector.

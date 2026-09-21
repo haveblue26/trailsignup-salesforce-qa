@@ -36,3 +36,4 @@ Or use the bundled command:
 
 - **First request slow (~10-30s)?** The relay is on a free hosting tier that spins down when idle — the first call after a quiet period just wakes it back up.
 - **Getting errors?** Ping Ajay — the relay's login can occasionally need refreshing on his end.
+- **Already have your own `salesforce-headless360-mcp-xdo` connector** (pointed at your own org)? This plugin's bundled MCP server uses that exact same name, on purpose, so that `/salesforce-for-sales` skills can find it without modification. Installing this plugin will collide with — and may shadow — your own connector of the same name. If you rely on your own connector, don't install this plugin, or expect one to override the other.
